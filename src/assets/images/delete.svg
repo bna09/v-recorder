@@ -1,0 +1,17 @@
+<svg id="delete" xmlns="http://www.w3.org/2000/svg" width="13.75" height="15" viewBox="0 0 13.75 15">
+  <g id="Group_41" data-name="Group 41" transform="translate(0 0)">
+    <g id="Group_40" data-name="Group 40">
+      <path id="Path_50" data-name="Path 50" d="M34.459,2.5H31.334V.625A.625.625,0,0,0,30.709,0h-5a.625.625,0,0,0-.625.625V2.5H21.959a.625.625,0,0,0,0,1.25h.625v9.375A1.877,1.877,0,0,0,24.459,15h7.5a1.877,1.877,0,0,0,1.875-1.875V3.75h.625a.625.625,0,0,0,0-1.25ZM26.334,1.25h3.75V2.5h-3.75Zm6.25,11.875a.626.626,0,0,1-.625.625h-7.5a.626.626,0,0,1-.625-.625V3.75h8.75v9.375Z" transform="translate(-21.334)" fill="#f37474"/>
+    </g>
+  </g>
+  <g id="Group_43" data-name="Group 43" transform="translate(4.375 5)">
+    <g id="Group_42" data-name="Group 42">
+      <path id="Path_51" data-name="Path 51" d="M171.292,170.667a.625.625,0,0,0-.625.625v5.625a.625.625,0,0,0,1.25,0v-5.625A.625.625,0,0,0,171.292,170.667Z" transform="translate(-170.667 -170.667)" fill="#f37474"/>
+    </g>
+  </g>
+  <g id="Group_45" data-name="Group 45" transform="translate(8.125 5)">
+    <g id="Group_44" data-name="Group 44">
+      <path id="Path_52" data-name="Path 52" d="M299.292,170.667a.625.625,0,0,0-.625.625v5.625a.625.625,0,0,0,1.25,0v-5.625A.625.625,0,0,0,299.292,170.667Z" transform="translate(-298.667 -170.667)" fill="#f37474"/>
+    </g>
+  </g>
+</svg>
