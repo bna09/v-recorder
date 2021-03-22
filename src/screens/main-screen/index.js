@@ -1,5 +1,11 @@
 import React, {useEffect, useState} from 'react';
-import {ScrollView, StatusBar, StyleSheet, View} from 'react-native';
+import {
+  ScrollView,
+  StatusBar,
+  StyleSheet,
+  View,
+  ToastAndroid,
+} from 'react-native';
 import {useIsFocused} from '@react-navigation/native';
 import {Header} from '../../components/ui';
 import TextBlock from './text-block';
@@ -40,6 +46,11 @@ const Main = props => {
   const onStopRecord = async () => {
     await audioRecorderPlayer.stopRecorder();
     audioRecorderPlayer.removeRecordBackListener();
+    ToastAndroid.show(
+      `Recording saved to: sdcard/vrecord_${currentRecord.name}.mp3`,
+      ToastAndroid.BOTTOM,
+      ToastAndroid.LONG,
+    );
     await onNext();
     setRecordTime('00:00:00');
   };
